@@ -19,8 +19,10 @@ mlxtend
 Removing Duplicates and Null Values:
 Duplicate entries are eliminated to ensure the accuracy of transactional data.
 Null values, if any, are handled appropriately to maintain data integrity.
+
 Formatting the Date:
 The date information, if present, is formatted to a consistent structure. This step enhances the uniformity of the dataset and facilitates any time-based analysis.
+
 Creating a Basket:
 The dataset is transformed into a basket format, grouping transactions by customer ID and the items they purchased. This restructuring is essential for the Apriori algorithm, which requires data in a transactional format to identify frequent itemsets and generate association rules.
 
@@ -29,6 +31,7 @@ The Apriori algorithm is implemented to identify frequent itemsets and generate 
 
 # Evaluation
 The performance of the Apriori algorithm is assessed through multiple metrics, including support, confidence, and lift, to determine the strength and significance of associations between items. Additionally, a custom function has been developed to enhance evaluation:
+
 Custom Evaluation Function: A function is created to take in an item and output the items that are frequently purchased with it. This function serves as a practical cross-check, allowing for comparison between the algorithm's predictions and the actual values in the dataset. The function aids in validating the accuracy and real-world applicability of the generated association rules.
 
 # Usage
