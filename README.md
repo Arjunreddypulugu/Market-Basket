@@ -9,10 +9,10 @@ Market Basket Analysis is a valuable tool in retail and e-commerce, providing in
 
 # Dependencies
 The following packages are required to run the code:
-pandas
-numpy
-matplotlib
-plotly
+pandas, 
+numpy, 
+matplotlib, 
+plotly, 
 mlxtend
 
 # Data Preprocessing
