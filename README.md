@@ -1,4 +1,4 @@
-# Market-Basket
+# Market Basket Analysis using Apriori
 This notebook provides a practical guide for anyone interested in harnessing the potential of market basket analysis (Apriori). Whether you're a data scientist, analyst, or business professional, the insights gained from this analysis can inform data-driven strategies that resonate with customer needs and preferences.
 
 # Introduction
